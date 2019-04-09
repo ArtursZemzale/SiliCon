@@ -1,0 +1,47 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: yellow;
+}
+
+
+.btncontainer{
+    margin-left: 200px;
+    margin-right: 200px;
+    background-color: #fff;
+    padding: 50px;
+    padding-bottom: 1px;
+    padding-right: 0px;
+    border: 2px solid;
+}
+
+.btn{
+    border: 1.5px solid;
+    box-shadow: 2px 2px;
+    font-size:30px;
+}
+
+.btn7,.btn8{
+    box-shadow: 2px 1px;
+}
+
+.btn7{
+    border-right: 0px;
+    margin-right: -5px;
+}
+
+.btn8{
+    border-left: 0px;
+}
+
+.login{
+    text-align: right;
+    margin-left: 312px;
+}
+
+h1{
+    text-align: center;
+    font-size: 55px;
+    margin-top: 40px;
+    margin-bottom: 50px; 
+}
