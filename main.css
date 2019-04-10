@@ -1,17 +1,21 @@
 body{
     margin: 0;
     padding: 0;
+    height: 100%;
     background-color: #ecff5e;
 }
 
 
 #btncontainer{
+    position: relative;
+    height: 40px;
+    overflow: hidden;
     background-color: #fff;
     border: 2px solid;
-    border-radius: 3px;
-    min-height: 50px;
-    padding-top: 1%;
-    padding-left: 5%;
+    min-height: 30px;
+    padding-top: 2.5%;
+    padding-left: 2%;
+    width: 78%;   
 }
 
 .btn{
@@ -34,43 +38,133 @@ body{
 }
 
 #login{
-  padding-left:20.2% 
+  padding-left: 24% 
 }
 
 h1{
     text-align: center;
-    font-size: 55px;
+    font-size: 70px;
     margin-top: 2%; 
 }
 
 #buffer{
     background-color: #fff;
+    width: 80%;
     border: 2px solid;
     border-top: none;
-    border-radius: 3px;
     min-height: 3px;
+    margin-top: 0%;
 }
 
 #bodycontainer{
     background-color: #fff;
+    position: fixed;
+    overflow: auto;
+    height: 100%;
+    width: 80%;
     border: 2px solid;
     border-top: none;
-    border-radius: 3px;
-    min-height: 1000px;
+    border-bottom: none;
+    padding-bottom: 5px;
+    line-height: 20px;
 }
 
-#bodycontainer, #buffer, #btncontainer{
+#Kontakti{
+    background-color: #fff;
+    position: fixed;
+    text-align: right;
+    left:40.1%;
+    overflow: auto;
+    height: 100%;
+    width: 40%;
+    border: 2px solid;
+    border-top: none;
+    border-left: none;
+    border-bottom: none;
+    padding-bottom: 5px;
+    line-height: 20px;
+}
+
+#bodycontainer, #buffer, #btncontainer, #footer, #Kontakti{
     margin-left: 10%;
     margin-right: 10%;
 }
 
-@-o-viewport{
-    zoom: 1;
-    width: extend-to-zoom;
+#footer {
+    background-color: #fff;
+    position: fixed;
+    bottom:0;
+    width: 80%;
+    text-align: center;
+    height:60px; 
+    border: 2px solid;
+    border-top: none;
+    overflow: hidden;
+ }
+
+p, h2{
+    margin: 3%;
 }
 
-@-ms-viewport{
-    zoom: 1;
-    width:  extend-to-zoom;
+h3{
+    margin-left: 3%;
+}
+ 
+ol{
+    margin-left: 0.5%;
+    line-height: 45px;
 }
 
+ol.custom {
+    list-style-type: none;
+  }
+  
+  ol.custom > li {
+    counter-increment: customlistcounter;
+  }
+  
+  ol.custom > li:before {
+    content: "#" counter(customlistcounter);
+    font-weight: bold;
+  }
+  
+  ol.custom:first-child {
+    counter-reset: customlistcounter;
+  }
+
+  a.btnlink:link{
+      text-decoration: none;
+      color: black;
+  }
+
+  a.btnlink:visited{
+    text-decoration: none;
+    color: black;
+  }
+
+  a.btnlink:active{
+    text-decoration: none;
+    color: black;
+}
+
+a.btnlink:hover{
+  text-decoration: none;
+  color: black;
+}
+
+#logo{
+    position: fixed;
+    top:50px;
+    left: 20px;
+    width: 8%;
+}
+
+#kont{
+    padding-top: 3.5%;
+    padding-right: 3.5%;
+    font-size: 20px;
+}
+
+#datori{
+    padding:50px;
+}
