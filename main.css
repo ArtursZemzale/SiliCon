@@ -1,11 +1,115 @@
 body{
     margin: 0;
     padding: 0;
-    height: 100%;
     background-color: #ecff5e;
 }
 
+header{
+    text-align: center;
+    font-size: 30px;
+    max-height: 200px;
+}
 
+#logo{
+    position: relative;
+    float: left;
+    width: 230px;
+    top: -30px;
+}
+
+.main{
+    width: 1400px;
+    background-color: #fff;
+    margin: 0px auto;
+    border: 2px solid;
+    border-top: none;
+    border-bottom: none;
+}
+
+nav{
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    min-height: 100px;
+    overflow: hidden;
+}
+
+nav li{
+    list-style-type: none;
+    display: inline;
+}
+
+nav li a{
+    position: relative;
+    text-decoration:none; 
+    border: 2px solid black;
+    box-shadow: 2px 2px;
+    color:black; 
+    padding: 10px;
+    top: 52px;
+}
+
+#login{
+    float: right;
+    position: relative;
+    padding: 10px;
+    border: 2px solid black;
+    box-shadow: 2px 2px;
+    top: 39px;    
+}
+
+#buffer{
+    background-color: #fff;
+    min-height: 2px;
+    border-bottom:2px black solid;
+}
+
+main{
+    float: left;
+    padding-bottom: 10px;
+    line-height: 20px;
+    margin: 40px;
+}
+
+ol{
+    line-height: 45px;
+}
+
+ol.custom {
+    list-style-type: none;
+  }
+  
+  ol.custom > li {
+    counter-increment: customlistcounter;
+  }
+  
+  ol.custom > li:before {
+    content: "#" counter(customlistcounter);
+    font-weight: bold;
+  }
+  
+  ol.custom:first-child {
+    counter-reset: customlistcounter;
+  }
+
+  aside{ 
+    margin: 40px;
+    float: left;
+    width: 800px;
+    text-align: right;
+  }
+
+  footer{
+    clear: left;
+    text-align: center;
+    border-bottom: 2px solid black; 
+    padding-top: 100px;
+}
+
+  #datori{
+    width: 400px;
+  }
+
+/*
 #btncontainer{
     position: relative;
     height: 40px;
@@ -14,31 +118,31 @@ body{
     border: 2px solid;
     min-height: 30px;
     padding-top: 2.5%;
+    padding-bottom: 10px;
     padding-left: 2%;
     width: 78%;   
 }
-
-.btn{
-    border: 1.5px solid;
+    
+.izvelne1  li{
+    list-style-type:none;
+    display:inline;
+}
+    
+.izvelne1 li a{
+    text-decoration:none; 
+    border: 2px solid black;
     box-shadow: 2px 2px;
-    font-size:30px;
-}
-
-.btn7,.btn8{
-    box-shadow: 2px 1px;
-}
-
-.btn7{
-    border-right: 0px;
-    margin-right: -5px;
-}
-
-.btn8{
-    border-left: 0px;
+    color:black; 
+    padding: 10px;
 }
 
 #login{
-  padding-left: 24% 
+    float: right;
+    position: relative;
+    padding: 10px;
+    border: 2px solid black;
+    box-shadow: 2px 2px;
+    top: -13px;    
 }
 
 h1{
@@ -58,24 +162,36 @@ h1{
 
 #bodycontainer{
     background-color: #fff;
-    position: fixed;
+    position: relative;
     overflow: auto;
-    height: 100%;
     width: 80%;
     border: 2px solid;
     border-top: none;
     border-bottom: none;
-    padding-bottom: 5px;
+    padding-bottom: 10px;
     line-height: 20px;
+    height: 600px;
 }
+
+.rightside{
+    float:right;
+    overflow: auto;
+    text-align: right;
+}
+
+#datori{
+    
+}
+
 
 #Kontakti{
     background-color: #fff;
-    position: fixed;
+    float: right;
+    position: relative;
     text-align: right;
-    left:40.1%;
+    right: 159px;
+    top: -610px;
     overflow: auto;
-    height: 100%;
     width: 40%;
     border: 2px solid;
     border-top: none;
@@ -86,17 +202,17 @@ h1{
 }
 
 #bodycontainer, #buffer, #btncontainer, #footer, #Kontakti{
-    margin-left: 10%;
-    margin-right: 10%;
+    margin-left: 210px;
+    
 }
 
 #footer {
     background-color: #fff;
-    position: fixed;
-    bottom:0;
+    position: relative;
     width: 80%;
+    height: 100px;
+    top: 100px;;
     text-align: center;
-    height:60px; 
     border: 2px solid;
     border-top: none;
     overflow: hidden;
@@ -154,17 +270,9 @@ a.btnlink:hover{
 
 #logo{
     position: fixed;
-    top:50px;
-    left: 20px;
-    width: 8%;
+    top:10px;
+    left: 10px;
+    width: 200px;
 }
 
-#kont{
-    padding-top: 3.5%;
-    padding-right: 3.5%;
-    font-size: 20px;
-}
-
-#datori{
-    padding:50px;
-}
+ /*<img src="computers.jpg" alt="Datori" id="datori" width="250px">
