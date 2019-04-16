@@ -6,6 +6,7 @@ body{
 
 header{
     text-align: center;
+    width: 1400px;
     font-size: 30px;
     max-height: 200px;
 }
@@ -64,6 +65,7 @@ nav li a{
 }
 
 main{
+    width: 700px;
     float: left;
     padding-bottom: 10px;
     line-height: 20px;
@@ -92,13 +94,13 @@ ol.custom {
   }
 
   aside{ 
-    margin: 40px;
     float: left;
-    width: 800px;
+    margin: 40px;
     text-align: right;
   }
 
   footer{
+    width: 1400px;
     clear: left;
     text-align: center;
     border-bottom: 2px solid black; 
@@ -110,170 +112,45 @@ ol.custom {
     width: 400px;
   }
 
-/*
-#btncontainer{
-    position: relative;
-    height: 40px;
-    overflow: hidden;
-    background-color: #fff;
-    border: 2px solid;
-    min-height: 30px;
-    padding-top: 2.5%;
-    padding-bottom: 10px;
-    padding-left: 2%;
-    width: 78%;   
-}
+  @media only screen and (max-width: 600px){
+    header{
+        width: 100%;
+    }
+
+    .main{
+        width: 100%;
+    }
+
+    main{
+        width: 50%;
+    }
+
+    aside{
+        width: 50%;
+    }
+
+    footer{
+        width: 100%;
+    }
     
-.izvelne1  li{
-    list-style-type:none;
-    display:inline;
+    h1{
+        font-size: 20px;
+    }
+
+    #logo{
+        width: 40%;
+    }
+
+    nav li a{
+        padding: 2px;
+    }
+
+    #login{
+        padding: 2px;
+        top: 48px;
+    }
+
+    nav{
+        width: 100%;
+    }
 }
-    
-.izvelne1 li a{
-    text-decoration:none; 
-    border: 2px solid black;
-    box-shadow: 2px 2px;
-    color:black; 
-    padding: 10px;
-}
-
-#login{
-    float: right;
-    position: relative;
-    padding: 10px;
-    border: 2px solid black;
-    box-shadow: 2px 2px;
-    top: -13px;    
-}
-
-h1{
-    text-align: center;
-    font-size: 70px;
-    margin-top: 2%; 
-}
-
-#buffer{
-    background-color: #fff;
-    width: 80%;
-    border: 2px solid;
-    border-top: none;
-    min-height: 3px;
-    margin-top: 0%;
-}
-
-#bodycontainer{
-    background-color: #fff;
-    position: relative;
-    overflow: auto;
-    width: 80%;
-    border: 2px solid;
-    border-top: none;
-    border-bottom: none;
-    padding-bottom: 10px;
-    line-height: 20px;
-    height: 600px;
-}
-
-.rightside{
-    float:right;
-    overflow: auto;
-    text-align: right;
-}
-
-#datori{
-    
-}
-
-
-#Kontakti{
-    background-color: #fff;
-    float: right;
-    position: relative;
-    text-align: right;
-    right: 159px;
-    top: -610px;
-    overflow: auto;
-    width: 40%;
-    border: 2px solid;
-    border-top: none;
-    border-left: none;
-    border-bottom: none;
-    padding-bottom: 5px;
-    line-height: 20px;
-}
-
-#bodycontainer, #buffer, #btncontainer, #footer, #Kontakti{
-    margin-left: 210px;
-    
-}
-
-#footer {
-    background-color: #fff;
-    position: relative;
-    width: 80%;
-    height: 100px;
-    top: 100px;;
-    text-align: center;
-    border: 2px solid;
-    border-top: none;
-    overflow: hidden;
- }
-
-p, h2{
-    margin: 3%;
-}
-
-h3{
-    margin-left: 3%;
-}
- 
-ol{
-    margin-left: 0.5%;
-    line-height: 45px;
-}
-
-ol.custom {
-    list-style-type: none;
-  }
-  
-  ol.custom > li {
-    counter-increment: customlistcounter;
-  }
-  
-  ol.custom > li:before {
-    content: "#" counter(customlistcounter);
-    font-weight: bold;
-  }
-  
-  ol.custom:first-child {
-    counter-reset: customlistcounter;
-  }
-
-  a.btnlink:link{
-      text-decoration: none;
-      color: black;
-  }
-
-  a.btnlink:visited{
-    text-decoration: none;
-    color: black;
-  }
-
-  a.btnlink:active{
-    text-decoration: none;
-    color: black;
-}
-
-a.btnlink:hover{
-  text-decoration: none;
-  color: black;
-}
-
-#logo{
-    position: fixed;
-    top:10px;
-    left: 10px;
-    width: 200px;
-}
-
- /*<img src="computers.jpg" alt="Datori" id="datori" width="250px">
