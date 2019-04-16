@@ -113,11 +113,11 @@ ol.custom {
   }
 
   @media only screen and (max-width: 600px){
-    header{
-        width: 100%;
-    }
 
     .main{
+        width: 100%;
+    }
+    header{
         width: 100%;
     }
 
@@ -138,9 +138,12 @@ ol.custom {
     }
 
     #logo{
-        width: 40%;
+        width: 80%;
     }
 
+    #datori{
+        width: 100%
+    }
     nav li a{
         padding: 2px;
     }
@@ -151,6 +154,63 @@ ol.custom {
     }
 
     nav{
+        width: 100%;
+    }
+
+    body{
+        height:100%;
+        background-color: #ecff5e;
+    }
+}
+
+
+@media only screen and (max-width: 400px){
+
+    .main{
+        width: 100%;
+    }
+
+    header{
+        width: 100%;
+    }
+
+    main{
+        width: 50%;
+    }
+
+    aside{
+        width: 50%;
+    }
+
+    footer{
+        width: 100%;
+    }
+    
+    h1{
+        font-size: 20px;
+    }
+
+    #logo{
+        width: 80%;
+    }
+
+    #datori{
+        width: 100%
+    }
+    nav li a{
+        padding: 2px;
+    }
+
+    #login{
+        padding: 2px;
+        top: 48px;
+    }
+
+    nav{
+        width: 100%;
+    }
+
+    body{
         width: 100%;
     }
 }
