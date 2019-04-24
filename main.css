@@ -18,7 +18,7 @@ header{
     top: -30px;
 }
 
-.main{
+main{
     width: 1400px;
     background-color: #fff;
     margin: 0px auto;
@@ -55,7 +55,7 @@ nav li a{
     padding: 10px;
     border: 2px solid black;
     box-shadow: 2px 2px;
-    top: 39px;    
+    top: 5px;    
 }
 
 #buffer{
@@ -64,8 +64,10 @@ nav li a{
     border-bottom:2px black solid;
 }
 
-main{
-    width: 700px;
+.main{
+    min-width: 700px;
+    max-width: 1400px;
+    min-height: 400px;
     float: left;
     padding-bottom: 10px;
     line-height: 20px;
@@ -195,7 +197,7 @@ ol.custom {
     }
 
     #datori{
-        width: 50%
+        width: 100%
     }
     nav li a{
         padding: 2px;
