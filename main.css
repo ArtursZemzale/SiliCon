@@ -116,14 +116,14 @@ ol.custom {
 
   @media only screen and (max-width: 600px){
 
-    .main{
+    main{
         width: 100%;
     }
     header{
         width: 100%;
     }
 
-    main{
+    .main{
         width: 50%;
     }
 
@@ -168,7 +168,7 @@ ol.custom {
 
 @media only screen and (max-width: 400px){
 
-    .main{
+    main{
         width: 100%;
     }
 
@@ -176,7 +176,7 @@ ol.custom {
         width: 100%;
     }
 
-    main{
+    .main{
         width: 50%;
     }
 
@@ -189,11 +189,12 @@ ol.custom {
     }
     
     h1{
-        font-size: 20px;
+        font-size: 15px;
     }
 
     #logo{
-        width: 80%;
+        width: 20%;
+        margin: 5px;
     }
 
     #datori{
@@ -215,4 +216,5 @@ ol.custom {
     body{
         width: 100%;
     }
+
 }
