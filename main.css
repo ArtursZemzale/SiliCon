@@ -134,6 +134,7 @@ ol.custom {
 
     .main{
         width: 50%;
+		min-width: 300px;
     }
 
     aside{
@@ -188,6 +189,7 @@ ol.custom {
 
     .main{
         width: 50%;
+		min-width: 200px;
     }
 
     aside{
